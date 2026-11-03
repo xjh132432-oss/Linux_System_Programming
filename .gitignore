@@ -1,0 +1,73 @@
+# ======================
+# C/C++ 编译文件
+# ======================
+
+*.exe
+*.dll
+*.obj
+*.o
+*.out
+*.a
+*.dylib
+*.gch
+a.out
+
+
+# ======================
+# VS Code
+# ======================
+
+.vscode/
+
+
+# ======================
+# CMake
+# ======================
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+
+# ======================
+# macOS
+# ======================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.dSYM/
+
+
+# ======================
+# Windows
+# ======================
+
+Thumbs.db
+Desktop.ini
+*.txt
+# Visual Studio
+*.suo
+*.user
+*.vcxproj*
+*.pdb
+
+
+# ======================
+# 临时文件
+# ======================
+
+*.log
+*.tmp
+*.bak
+
+
+# ======================
+# 测试数据（按需开启）
+# ======================
+
+# input.txt
+# output.txt
